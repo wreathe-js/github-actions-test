@@ -1,1 +1,1 @@
-console.log('label1')
+console.log('label1 test')
