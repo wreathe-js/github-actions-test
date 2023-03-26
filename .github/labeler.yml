@@ -1,0 +1,5 @@
+"pkg/label-1":
+  - src/label-1/**/*
+
+"pkg/label-2":
+  - src/label-2/**/*
