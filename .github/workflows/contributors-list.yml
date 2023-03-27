@@ -9,6 +9,7 @@ on:
 jobs:
   contributors:
     permissions:
+      id-token: write
       contents: read
       pull-requests: write
 

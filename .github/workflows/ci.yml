@@ -11,6 +11,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  
 jobs:
   ci:
     if: ${{ github.repository == 'wreathe-js/github-actions-test' }}
