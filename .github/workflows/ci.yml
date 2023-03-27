@@ -13,7 +13,7 @@ concurrency:
 
 permissions:
   contents: read
-  
+
 jobs:
   ci:
     if: ${{ github.repository == 'wreathe-js/github-actions-test' }}
@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install Node dependencies
         run: pnpm install

@@ -1,5 +1,14 @@
-"pkg/label-1":
-  - src/label-1/**/*
+"pkg/core":
+  - package/core/**/*
 
-"pkg/label-2":
-  - src/label-2/**/*
+"pkg/react":
+  - package/react/**/*
+
+"pkg/preact":
+  - packages/preact/**/*
+
+"pkg/vue":
+  - packages/vue/**/*
+
+"pkg/laravel":
+  - packages/laravel/**/*
