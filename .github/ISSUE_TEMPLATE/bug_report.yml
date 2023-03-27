@@ -2,7 +2,7 @@ name: Bug Report
 description: Report a reproducible bug to help us improve.
 labels:
   - bug
-  - "🚦 status: awaiting triage"
+  - '🚦 status: awaiting triage'
 body:
   - type: markdown
     attributes:
@@ -60,9 +60,9 @@ body:
       label: PHP Version
       description: Output of `php -v`
       options:
-        - "8.2"
-        - "8.1"
-        - "8.0"
+        - '8.2'
+        - '8.1'
+        - '8.0'
     validations:
       required: true
   - type: dropdown
