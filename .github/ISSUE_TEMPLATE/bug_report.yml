@@ -2,7 +2,7 @@ name: Bug Report
 description: Report a reproducible bug to help us improve.
 labels:
   - bug
-  - '🚦 status: awaiting triage'
+  - "🚦 status: awaiting triage"
 body:
   - type: markdown
     attributes:
@@ -60,9 +60,9 @@ body:
       label: PHP Version
       description: Output of `php -v`
       options:
-        - '8.2'
-        - '8.1'
-        - '8.0'
+        - "8.2"
+        - "8.1"
+        - "8.0"
     validations:
       required: true
   - type: dropdown
@@ -71,7 +71,6 @@ body:
       label: Laravel Version
       description: Output of `php artisan --version`
       options:
-        - v10.0.5
         - v10.0.4
         - v10.0.3
         - v10.0.2
@@ -192,7 +191,6 @@ body:
       label: Node Version
       description: Output of `node -v`
       options:
-        - 19.8.1
         - 19.8.0
         - 19.7.0
         - 19.6.1
