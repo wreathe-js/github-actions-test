@@ -25,7 +25,6 @@ jobs:
   ci:
     if: ${{ github.repository == 'wreathe-js/github-actions-test' }}
     permissions:
-      actions: write
       contents: write
 
     runs-on: ubuntu-latest
