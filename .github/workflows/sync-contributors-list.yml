@@ -8,11 +8,11 @@ on:
 
 jobs:
   sync-contributors:
+    name: Sync Contributors List
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-
-    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code

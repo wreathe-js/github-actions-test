@@ -7,11 +7,11 @@ on:
 
 jobs:
   update-bug-report:
+    name: Bug Report Updater
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-
-    runs-on: ubuntu-latest
 
     if: contains(github.actor, 'github-actions') == false
     steps:

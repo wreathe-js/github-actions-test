@@ -23,11 +23,11 @@ concurrency:
 
 jobs:
   ci:
+    name: Node.js CI
     if: ${{ github.repository == 'wreathe-js/github-actions-test' }}
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-
-    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
