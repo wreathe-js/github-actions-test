@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "0 3 */2 * *"
 
+permissions:
+  contents: read
+
 jobs:
   sync-contributors:
     name: Sync Contributors List
