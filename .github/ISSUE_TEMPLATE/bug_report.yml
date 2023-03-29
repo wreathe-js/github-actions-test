@@ -192,6 +192,7 @@ body:
       label: Node Version
       description: Output of `node -v`
       options:
+        - 19.8.1
         - 19.8.0
         - 19.7.0
         - 19.6.1
