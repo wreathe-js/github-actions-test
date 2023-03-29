@@ -6,9 +6,10 @@ on:
 
 jobs:
   label-issues-policy:
-    runs-on: ubuntu-latest
     permissions:
       issues: write
+
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
