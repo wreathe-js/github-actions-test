@@ -31,7 +31,6 @@ jobs:
           registry: github
           semver: ">=6.0"
           form: .github/ISSUE_TEMPLATE/bug_report.yml
-          commit_message: "chore(): update bug report / laravel"
           dry_run: no-push
 
       - name: Update Node version
@@ -42,7 +41,6 @@ jobs:
           package: node
           semver: ">=16.14.0"
           form: .github/ISSUE_TEMPLATE/bug_report.yml
-          commit_message: "chore(): update bug report / node"
           dry_run: no-push
 
       - name: Commit & PR
