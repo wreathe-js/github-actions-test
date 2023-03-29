@@ -54,6 +54,6 @@ jobs:
           branch: workflow/update-bug-report-template
           base: main
           delete-branch: true
-          title: "chore(): update bug report template [skip ci]"
+          title: "chore(): update bug report template"
           body: |
             Automated update to `.github/ISSUE_TEMPLATE/bug_report.yml`
